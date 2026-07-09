@@ -1,12 +1,11 @@
 package Hello;
-import java.util.*;
 import java.util.Scanner;
 
 public class input{ 
 	public static void main(String [] args) {
-		Scanner input = new Scanner (System.in);
-		int num1 = input.nextInt();
-		int num2 = input.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
 		if(num1 > 0) {
 			if(num1 % 2 == 0) {
 				System.out.println("Number is even and real positve");
@@ -16,6 +15,7 @@ public class input{
 			}
 		}
 		else if(num1 ==0) {
+
 			System.out.println("First number is whole no");
 		}
 		if(num2 > 0) {
